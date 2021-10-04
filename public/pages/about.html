@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,28 +10,52 @@
     </head>
     <body id="about">
         <header>
-            <h1>Jackson Shen</h1>
+            <h1 lang="en">Jackson Shen</h1>
+            <h1 lang="jp">シェン・ジャックソン</h1>
+
         </header>
         <nav>
             <ul id="navLinks">
-                <a href="../pages/about.html">About</a>
-                <a href="../pages/portfolio.html">Portfolio</a>
-                <a href="../pages/portfolioresume.pdf">Resume</a>
+                <a href="../pages/about.html" lang="en">About</a>
+                <a href="../pages/about.html" lang="jp">僕について</a>
+
+                <a href="../pages/portfolio.html" lang="en">Portfolio</a>
+                <a href="../pages/portfolio.html" lang="jp">ポートフォリオ</a>
+
+                <a href="../pages/portfolioresume.pdf" lang="en">Resume</a>
+                <a href="../pages/portfolioresume.pdf" lang="jp">履歴書</a>
+
             </ul>
         </nav>
         <main>
-            <p>
+            <p lang="en">
                 Hi! I'm Jackson Shen, a sophomore Computer Science Student at Rose-Hulman!
                 <br>
                 I enjoy playing games, hanging out with friends, and learning new things!
                 <br>
                 At Rose, I am a part of a research team looking into fitness landscapes, and am looking to study abroad in my fourth year.
             </p>
+            <p lang="jp">
+                ローズハルマン工科大学二年生のジャックソンです。
+                <br>
+                ゲームをしたり、友達と遊んだり、色々なことをだらったりするのが好きです。
+                <br>
+                ローズでコンピューター科学の研究をしています。四年生に、留学するつもりです。
+            </p>
         </main>
         <img src="../images/professionalpic.JPG" class="propic"/>
-        <script src="../scripts/main.js"></script>
         <footer>
-            Please email me at shenj7@rose-hulman.edu!
+            <p lang="en">
+                Please email me at shenj7@rose-hulman.edu!
+            </p>
+            <p lang="jp">
+                shenj7@rose-hulman.eduでE-メールしてください。
+            </p>
+            <button id="change-lang">日本語</button>
         </footer>
+        <script src="../scripts/jquery.min.js"></script>
+        <script src="../scripts/popper.js"></script>
+        <script src="../scripts/main.js"></script>
     </body>
+    
 </html>

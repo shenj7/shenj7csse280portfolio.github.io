@@ -52,7 +52,6 @@ body {
 
 header {
     grid-area: head;
-    /* background-color: blue; */
     padding-bottom: var(--vertical-space);
     font-family: 'Roboto Slab', serif;
 }
@@ -63,13 +62,11 @@ title {
 
 nav {
     grid-area: nav;
-    /* background-color: red; */
     padding-bottom: var(--vertical-space);
 }
 
 main {
     grid-area: main;
-    /* background-color: yellow; */
     padding-bottom: var(--vertical-space);
 
 }
@@ -83,7 +80,8 @@ img {
 footer {
     grid-area: foot;
     font-family: 'Lato', serif;
-    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
 }
 
 h1 {
@@ -112,7 +110,6 @@ body > * {
     flex-wrap: wrap;
     flex: 1;
     list-style-type: none;
-    /* background-color: pink !important; */
     padding: 0;
 }
 
@@ -137,4 +134,11 @@ body > * {
 
 a:hover {
     color: var(--green-color);
+}
+
+#change-lang {
+    margin-left: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #9FBF2C;
 }
